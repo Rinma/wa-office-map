@@ -1,9 +1,15 @@
-{ "compressionlevel":0,
+{ "compressionlevel":-1,
  "editorsettings":
     {
+     "chunksize":
+     {
+        "height":32,
+        "width":32
+     },
      "export":
         {
-         "target":"."
+         "format": "json",
+         "target":"map.json"
         }
     },
  "height":50,
@@ -203,12 +209,6 @@
          "imagewidth":256,
          "margin":0,
          "name":"floor",
-         "properties":[
-                {
-                 "name":"collidable",
-                 "type":"bool",
-                 "value":false
-                }],
          "spacing":0,
          "tilecount":64,
          "tileheight":32,
