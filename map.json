@@ -202,7 +202,7 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"jitsiMeet",
+                 "name":"jitsiRoom",
                  "type":"string",
                  "value":"Variable-Cosmetics-Curling"
                 }],
@@ -219,7 +219,7 @@
          "name":"rug",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":75,
          "x":0,
          "y":0
